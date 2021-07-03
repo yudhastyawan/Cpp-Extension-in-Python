@@ -1,0 +1,3 @@
+[submodule "GenePool"]
+	path = GenePool
+	url = https://github.com/rcorbish/GenePool.git
