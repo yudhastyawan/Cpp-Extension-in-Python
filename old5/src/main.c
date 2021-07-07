@@ -7,6 +7,6 @@ int main(){
     Mynumber_setter(a,i);
     Mynumber_setter(b,j);
     c = c_mysum(a,b);
-    printf("%f",Mynumber_getter(c));
+    printf("%.1f\n",Mynumber_getter(c));
     return 0;
 }

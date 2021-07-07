@@ -1,5 +1,5 @@
-./exec/main.out: ./lib/myclass.o ./lib/mycalc.o ./lib/cwrapper.o ./src/main.o
-	g++ -I ./include ./src/main.o ./lib/myclass.o ./lib/mycalc.o -o ./exec/main.out
+./exec/main.out: ./lib/myclass.o ./lib/mycalc.o ./lib/cwrapper.o ./lib/main.o
+	g++ -I ./include ./lib/main.o ./lib/myclass.o ./lib/mycalc.o ./lib/cwrapper.o -o ./exec/main.out
 	./exec/main.out
 
 ./lib/main.o: ./src/main.c
